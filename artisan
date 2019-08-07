@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+if [ -z "$1" ]
+  then
+    docker-compose exec php php /var/www/artisan
+else
+    docker-compose exec $@ php php /var/www/artisan
+fi

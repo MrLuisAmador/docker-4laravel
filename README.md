@@ -25,3 +25,11 @@ then open a terminal and from root directory run;
 Open up your browser of choice to [http://localhost:8080](http://localhost:8080) and you should see your Laravel app running as intended. 
 
 Happy coding and go read the [Laravel](https://laravel.com/docs) docs for framework help.
+
+I have built in some extra tools to make running commands within your container environment simple. This is helpful to stop from having to ssh into your docker container to run shell commands. As for an example, an artisan commands. 
+
+./shell SSH into your project docker environment. ( The only commmand I have working so far. )
+
+./composer Run composer commmands.
+
+./artisan Run artisan commands.
